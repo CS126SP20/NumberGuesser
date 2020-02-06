@@ -24,5 +24,10 @@ public class Main {
         NumberGuesser4 game4 = new NumberGuesser4(LO, HI);
         int attempts4 = game4.play(); // or `game4.play(System.in)` using overloaded method.
         System.out.println("It took you " + attempts4 + " attempts.");
+
+        // Version 4.
+        NumberGuesser5 game5 = new NumberGuesser5(LO, HI);
+        int attempts5 = game5.play(50); // or `game5.play(System.in)` using overloaded method.
+        System.out.println("It took you " + attempts5 + " attempts.");
     }
 }
